@@ -1,0 +1,20 @@
+{
+  "name": "01-threejs-intro-study",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ui": "*",
+    "three": "^0.144.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "tsconfig": "*",
+    "vite": "^3.1.0"
+  }
+}
