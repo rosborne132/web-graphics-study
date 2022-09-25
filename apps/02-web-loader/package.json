@@ -1,5 +1,5 @@
 {
-  "name": "01-threejs-intro-study",
+  "name": "02-web-loader",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,8 +13,9 @@
     "three": "^0.144.0"
   },
   "devDependencies": {
-    "typescript": "^4.6.4",
+    "@types/three": "^0.144.0",
     "tsconfig": "*",
+    "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
 }

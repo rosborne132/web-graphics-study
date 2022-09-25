@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // Modules
-import { rotate } from './modules/animations'
+import { rotate } from "helpers/modules/Animations";
 import { createBrick, createSphere, createTorus } from './modules/shapes';
 import { spaceTexture } from './modules/textures';
 
@@ -27,6 +27,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 camera.position.setZ(30);
 camera.position.setX(-3);
+
 
 const torus = createTorus()
 const brick = createBrick();

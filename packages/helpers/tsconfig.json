@@ -1,0 +1,5 @@
+{
+  "extends": "tsconfig/vite.json",
+  "include": [".", "../../apps/01-threejs-intro-study/src/modules/Textures.ts"],
+  "exclude": ["dist", "build", "node_modules"]
+}
