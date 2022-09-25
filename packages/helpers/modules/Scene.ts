@@ -25,7 +25,7 @@ export default class Scene {
         this.renderer = undefined;
 
         // Camera params.
-        this.fov = 45;
+        this.fov = 15;
         this.nearPlane = 1;
         this.farPlane = 1000;
         this.id = id;
