@@ -1,7 +1,6 @@
-// Modules
-import Scene from "helpers/modules/Scene";
+// Examples
+import { basic, noise } from './examples'
 
-const scene = new Scene('#bg');
+// basic();
+noise();
 
-scene.init();
-scene.animate();
